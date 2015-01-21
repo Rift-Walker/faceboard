@@ -15,7 +15,13 @@ The core of this project will synthesize data from two primary sources:
 
 The library will use OpenCV to identify faces in a given frame, and then capture those facial images and hand them to various cloud services, as well as OpenCV's own machine learning algorithms to find the most likely match and provide a data structure containing all the data that could be found on that person.
 
+![alt tag](http://i60.tinypic.com/2hev90o.jpg)
+
 ## Demo Applications
 The cardboard application will take input from the camera and overlay facial recognition status and results. A postive match will be indicated by a floating icon near the person's head, which can be expanded to show information
 
 On Google Glass, we will be concerned primarily with the person the user is talking to. A positive match will be indicated by a Glass notification, which can be opened into a more detailed view, which will show a picture and basic information, and can be swiped in various directions to view their social profile feeds.
+
+![alt tag](http://i60.tinypic.com/28tdzpd.jpg)
+
+![alt tag](http://i59.tinypic.com/a5jdd0.jpg)
